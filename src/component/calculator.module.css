@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_block {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-image: url("https://img.freepik.com/free-photo/top-view-calculator-notebook-frame_23-2149103980.jpg?w=2000");
+ 
+
+
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 5%;
+}
+
+.calculator_main {
+  height: 77vh;
+  width: 21vw;
+  background-color: white;
+  /* background-color: #9be0d9; */
+  border-radius: 12px;
+  /* border: 3px solid black; */
+  box-shadow: 0px 1px 10px 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.themes
+{
+  width: 100%;
+  height: 3%;
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  
+}
+.sky,.yellow,.black
+{
+  height: 80%;
+  width: 4.5%;
+  border-radius: 50%;
+  margin-right: 2%;
+  outline: none;
+  border: none;
+
+}
+.sky
+{
+  background-color: skyblue;
+}
+.yellow
+{
+  background-color: yellow;
+}
+.black
+{
+  background-color: black;
+}
+
+.output {
+  height: 28%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2%;
+}
+
+.display_input {
+  height: 71%;
+  width: 98%;
+  font-weight: 600;
+  font-size: 3.1rem;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  outline: none;
+  text-align: right;
+  border: none;
+  
+}
+
+.buttons {
+  height: 68%;
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  align-items: center;
+  justify-content:space-between;
+
+
+  
+}

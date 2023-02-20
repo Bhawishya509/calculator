@@ -1,0 +1,38 @@
+
+.key_pad_main_block
+{
+    height: 16%;
+    width: 21%;
+    background-color: #cccccc;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.1rem;
+  font-weight: 800;
+  
+ 
+}
+
+.key_pad_main_blocks
+{
+    height: 14%;
+    width: 44%;
+    background-color: #cccccc;
+    border-radius: 22px;
+    cursor: pointer;
+    font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2.1rem;
+  font-weight: 800;
+  padding-left: 4%;
+ 
+}
